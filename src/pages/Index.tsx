@@ -18,7 +18,7 @@ const Index = () => {
       duration: '8 weeks',
       students: 1250,
       level: 'All Levels' as const,
-      price: 12999
+      price: 5000
     },
     {
       id: 'java',
@@ -28,7 +28,7 @@ const Index = () => {
       duration: '10 weeks',
       students: 1840,
       level: 'Beginner' as const,
-      price: 14999
+      price: 5000
     },
     {
       id: 'dsa',
@@ -38,7 +38,7 @@ const Index = () => {
       duration: '12 weeks',
       students: 2150,
       level: 'Intermediate' as const,
-      price: 16999
+      price: 5000
     }
   ];
 
@@ -100,7 +100,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link 
                 to="/courses" 
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#0052CC] hover:bg-[#0747A6]"
               >
                 Explore All Courses
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -110,7 +110,7 @@ const Index = () => {
         </section>
         
         {/* Stats Section */}
-        <section className="gradient-bg py-12 text-white">
+        <section className="bg-[#0052CC] py-12 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
               <div className="text-center">
@@ -134,7 +134,7 @@ const Index = () => {
         </section>
         
         {/* Why Choose Us */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-[#f4f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12">
               <div>
@@ -157,7 +157,7 @@ const Index = () => {
                   ].map((item, index) => (
                     <div key={index} className="flex items-start mt-6 first:mt-0">
                       <div className="flex-shrink-0">
-                        <CheckCircle className="h-6 w-6 text-purple-600" />
+                        <CheckCircle className="h-6 w-6 text-[#0052CC]" />
                       </div>
                       <p className="ml-3 text-lg text-gray-500">{item}</p>
                     </div>
@@ -167,7 +167,7 @@ const Index = () => {
                 <div className="mt-10">
                   <Link 
                     to="/about" 
-                    className="text-purple-600 font-medium hover:text-purple-700 flex items-center"
+                    className="text-[#0052CC] font-medium hover:text-[#0747A6] flex items-center"
                   >
                     Learn more about Coding Bloom
                     <ArrowRight className="ml-1 h-5 w-5" />
@@ -226,7 +226,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link 
                 to="/success-stories" 
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#0052CC] hover:bg-[#0747A6]"
               >
                 View All Success Stories
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -236,7 +236,7 @@ const Index = () => {
         </section>
         
         {/* CTA Section */}
-        <section className="bg-purple-700 text-white py-16">
+        <section className="bg-[#0052CC] text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-extrabold sm:text-4xl">
               Ready to start your coding journey?
@@ -247,13 +247,13 @@ const Index = () => {
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <Link 
                 to="/contact" 
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-white hover:bg-gray-50"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#0052CC] bg-white hover:bg-gray-50"
               >
                 Schedule a Free Demo
               </Link>
               <Link 
                 to="/courses" 
-                className="inline-flex items-center justify-center px-5 py-3 border border-white text-base font-medium rounded-md text-white hover:bg-purple-800"
+                className="inline-flex items-center justify-center px-5 py-3 border border-white text-base font-medium rounded-md text-white hover:bg-[#0747A6]"
               >
                 Browse Courses
               </Link>

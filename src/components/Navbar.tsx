@@ -25,7 +25,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="code-text text-xl font-bold text-black">Coding Bloom</span>
+              <img 
+                src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
+                alt="Coding Bloom Logo" 
+                className="h-10 w-auto"
+              />
             </Link>
           </div>
           
@@ -35,7 +39,7 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('courses')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC] flex items-center"
               >
                 Courses <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -53,7 +57,7 @@ const Navbar = () => {
             </div>
 
             {/* Dashboard */}
-            <Link to="/dashboard" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
+            <Link to="/dashboard" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC]">
               Dashboard
             </Link>
 
@@ -61,7 +65,7 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('about')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC] flex items-center"
               >
                 About Us <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -80,7 +84,7 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('success')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC] flex items-center"
               >
                 Success Stories <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -98,7 +102,7 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('blog')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC] flex items-center"
               >
                 Blog & Resources <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -114,12 +118,12 @@ const Navbar = () => {
             </div>
 
             {/* FAQs */}
-            <Link to="/faqs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
+            <Link to="/faqs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC]">
               FAQs
             </Link>
 
             {/* Contact */}
-            <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
+            <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC]">
               Contact
             </Link>
           </div>
@@ -128,7 +132,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <Link
               to="/login"
-              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-black hover:bg-gray-800"
+              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#0052CC] hover:bg-[#0747A6]"
             >
               Login / Register
             </Link>
@@ -138,7 +142,7 @@ const Navbar = () => {
           <div className="flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#0052CC] hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#0052CC]"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
@@ -158,49 +162,49 @@ const Navbar = () => {
           <div className="pt-2 pb-3 space-y-1">
             <Link
               to="/courses"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Courses
             </Link>
             <Link
               to="/dashboard"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Dashboard
             </Link>
             <Link
               to="/about"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               About Us
             </Link>
             <Link
               to="/success-stories"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Success Stories
             </Link>
             <Link
               to="/blog"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Blog & Resources
             </Link>
             <Link
               to="/faqs"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               FAQs
             </Link>
             <Link
               to="/contact"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Contact
             </Link>
             <Link
               to="/login"
-              className="block px-3 py-2 rounded-md text-base font-medium text-white bg-purple-600 hover:bg-purple-700 text-center"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white bg-[#0052CC] hover:bg-[#0747A6] text-center"
             >
               Login / Register
             </Link>

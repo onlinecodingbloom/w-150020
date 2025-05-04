@@ -69,6 +69,15 @@ export default {
 					light: '#F6F6F7',
 					accent: '#C8C8C9',
 					muted: '#F1F1F1'
+				},
+				// Atlassian color scheme
+				atlassian: {
+					blue: '#0052CC',
+					'blue-hover': '#0747A6',
+					black: '#172B4D',
+					'light-gray': '#F4F5F7',
+					'medium-gray': '#6B778C',
+					white: '#FFFFFF',
 				}
 			},
 			borderRadius: {

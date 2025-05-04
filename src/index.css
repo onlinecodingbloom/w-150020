@@ -11,26 +11,27 @@
     --card-foreground: 0 0% 10%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
-    --primary: 0 0% 15%;
+    --primary: 209 100% 50%;
     --primary-foreground: 0 0% 98%;
     --secondary: 0 0% 95%;
     --secondary-foreground: 0 0% 15%;
     --muted: 0 0% 95%;
     --muted-foreground: 0 0% 50%;
-    --accent: 0 0% 90%;
-    --accent-foreground: 0 0% 15%;
+    --accent: 209 100% 45%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 85%;
     --input: 0 0% 85%;
-    --ring: 0 0% 15%;
+    --ring: 209 100% 50%;
     --radius: 0.5rem;
 
     /* Custom colors for Coding Bloom */
     --bloom-dark: 0 0% 13%;
     --bloom-medium: 0 0% 40%;
     --bloom-light: 0 0% 96%;
-    --bloom-accent: 0 0% 20%;
+    --bloom-accent: 209 100% 50%;
+    --atlassian-blue: 209 100% 50%;
   }
 
   .dark {
@@ -40,19 +41,19 @@
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 85%;
-    --primary-foreground: 0 0% 10%;
+    --primary: 209 100% 50%;
+    --primary-foreground: 0 0% 98%;
     --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
-    --accent: 0 0% 20%;
+    --accent: 209 100% 45%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 0 0% 80%;
+    --ring: 209 100% 50%;
   }
 }
 
@@ -75,19 +76,19 @@
 
 .code-text::before {
   content: "<";
-  color: #333;
+  color: #0052CC;
   margin-right: 0.25rem;
 }
 
 .code-text::after {
   content: "/>";
-  color: #333;
+  color: #0052CC;
   margin-left: 0.25rem;
 }
 
 /* Gradient animation for hero sections */
 .gradient-bg {
-  background: linear-gradient(120deg, #ffffff, #f0f0f0, #e0e0e0);
+  background: linear-gradient(120deg, #ffffff, #f4f5f7, #e6effc);
   background-size: 200% 200%;
   animation: gradientShift 15s ease infinite;
 }

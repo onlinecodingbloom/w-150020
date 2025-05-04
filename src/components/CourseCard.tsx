@@ -23,6 +23,9 @@ const CourseCard: React.FC<CourseCardProps> = ({
   level,
   price
 }) => {
+  // Fixed price to ₹5000 as requested
+  const displayPrice = 5000;
+  
   return (
     <Link to={`/courses/${id}`} className="bloom-hover block rounded-lg overflow-hidden shadow-lg bg-white">
       <div className="aspect-w-16 aspect-h-9 relative">
@@ -56,9 +59,9 @@ const CourseCard: React.FC<CourseCardProps> = ({
         </div>
         
         <div className="flex items-center justify-between">
-          <span className="font-bold text-xl text-black">₹{price.toLocaleString()}</span>
+          <span className="font-bold text-xl text-black">₹{displayPrice.toLocaleString()}</span>
           
-          <button className="px-4 py-2 bg-black hover:bg-gray-800 text-white rounded font-medium">
+          <button className="px-4 py-2 bg-[#0052CC] hover:bg-[#0747A6] text-white rounded font-medium">
             View Details
           </button>
         </div>

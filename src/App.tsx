@@ -30,6 +30,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Toaster />
+      {/* Cookie consent banner has been removed */}
     </Router>
   );
 }
