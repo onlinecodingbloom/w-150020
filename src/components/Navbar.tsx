@@ -25,11 +25,20 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img 
-                src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
-                alt="Coding Bloom Logo" 
-                className="h-10 w-auto"
-              />
+              <div className="animate-pulse-slow hover:animate-bounce-subtle transition-all duration-300">
+                <img 
+                  src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
+                  alt="Coding Bloom Logo" 
+                  className="h-10 w-auto object-contain filter brightness-100 contrast-125"
+                  style={{
+                    filter: "drop-shadow(0px 0px 3px rgba(0, 82, 204, 0.5))",
+                    background: "transparent"
+                  }}
+                />
+              </div>
+              <span className="text-xl font-bold text-[#0052CC] ml-2 hidden md:block animate-slide-in">
+                Coding Bloom
+              </span>
             </Link>
           </div>
           
@@ -132,7 +141,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <Link
               to="/login"
-              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#0052CC] hover:bg-[#0747A6]"
+              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#0052CC] hover:bg-[#0747A6] transition-colors duration-300"
             >
               Login / Register
             </Link>

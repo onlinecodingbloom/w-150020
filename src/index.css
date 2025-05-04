@@ -132,3 +132,51 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--bloom-dark));
 }
+
+/* Logo animations */
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes logoGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 3px rgba(0, 82, 204, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgba(0, 82, 204, 0.6));
+  }
+}
+
+.logo-animate {
+  animation: logoFloat 3s ease-in-out infinite, logoGlow 4s ease-in-out infinite;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-text {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-text:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0052CC;
+  transition: width 0.3s ease;
+}
+
+.logo-container:hover .logo-text:after {
+  width: 100%;
+}
