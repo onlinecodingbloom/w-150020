@@ -1,54 +1,37 @@
 
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
-import FireCatProject from "./pages/FireCatProject";
-import SportRetailProject from "./pages/SportRetailProject";
-import WorkwearProject from "./pages/WorkwearProject";
-import HockeyProject from "./pages/HockeyProject";
-import PetProject from "./pages/PetProject";
-import TechDetails from "./pages/TechDetails";
-import DevelopmentProcess from "./pages/DevelopmentProcess";
-import About from "./pages/About";
-import Careers from "./pages/Careers";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import Blog from "./pages/Blog";
-import BlogPostDetail from "./pages/BlogPostDetail";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Index from './pages/Index';
+import CoursesPage from './pages/CoursesPage';
+import CourseDetail from './pages/CourseDetail';
+import Dashboard from './pages/Dashboard';
+import AboutUs from './pages/AboutUs';
+import SuccessStories from './pages/SuccessStories';
+import BlogResources from './pages/BlogResources';
+import FAQsPage from './pages/FAQsPage';
+import Contact from './pages/Contact';
+import Legal from './pages/Legal';
+import NotFound from './pages/NotFound';
+import { Toaster } from './components/ui/toaster';
 
-const App = () => {
-  const [queryClient] = useState(() => new QueryClient());
-
+function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/projects/firecat" element={<FireCatProject />} />
-            <Route path="/projects/sport-retail" element={<SportRetailProject />} />
-            <Route path="/projects/workwear" element={<WorkwearProject />} />
-            <Route path="/projects/hockey" element={<HockeyProject />} />
-            <Route path="/projects/pet-tracker" element={<PetProject />} />
-            <Route path="/tech-details" element={<TechDetails />} />
-            <Route path="/development-process" element={<DevelopmentProcess />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/careers" element={<Careers />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogPostDetail />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/courses/:courseId" element={<CourseDetail />} />
+        <Route path="/dashboard/*" element={<Dashboard />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/success-stories" element={<SuccessStories />} />
+        <Route path="/blog" element={<BlogResources />} />
+        <Route path="/faqs" element={<FAQsPage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/legal/:pageType" element={<Legal />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Toaster />
+    </Router>
   );
-};
+}
 
 export default App;
