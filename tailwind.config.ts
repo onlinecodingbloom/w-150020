@@ -65,7 +65,7 @@ export default {
 				},
 				wrlds: {
 					teal: '#9F9EA1',
-					dark: '#3F3F3F',
+					dark: '#222222',
 					light: '#F6F6F7',
 					accent: '#C8C8C9',
 					muted: '#F1F1F1'

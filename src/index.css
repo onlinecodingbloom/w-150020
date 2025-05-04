@@ -6,54 +6,53 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 262.1 83.3% 57.8%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 0 0% 15%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 50%;
+    --accent: 0 0% 90%;
+    --accent-foreground: 0 0% 15%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 262.1 83.3% 57.8%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 0 0% 15%;
     --radius: 0.5rem;
 
     /* Custom colors for Coding Bloom */
-    --bloom-purple-light: 262 83% 78%;
-    --bloom-purple: 262 73% 58%;
-    --bloom-purple-dark: 262 63% 38%;
-    --bloom-teal: 174 84% 36%;
-    --bloom-orange: 26 100% 50%;
+    --bloom-dark: 0 0% 13%;
+    --bloom-medium: 0 0% 40%;
+    --bloom-light: 0 0% 96%;
+    --bloom-accent: 0 0% 20%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 262.1 83.3% 57.8%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 85%;
+    --primary-foreground: 0 0% 10%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 0 0% 20%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 262.1 83.3% 57.8%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 80%;
   }
 }
 
@@ -76,19 +75,19 @@
 
 .code-text::before {
   content: "<";
-  color: hsl(var(--bloom-teal));
+  color: #333;
   margin-right: 0.25rem;
 }
 
 .code-text::after {
   content: "/>";
-  color: hsl(var(--bloom-teal));
+  color: #333;
   margin-left: 0.25rem;
 }
 
 /* Gradient animation for hero sections */
 .gradient-bg {
-  background: linear-gradient(120deg, hsl(var(--bloom-purple-light)), hsl(var(--bloom-purple)), hsl(var(--bloom-purple-dark)));
+  background: linear-gradient(120deg, #ffffff, #f0f0f0, #e0e0e0);
   background-size: 200% 200%;
   animation: gradientShift 15s ease infinite;
 }
@@ -112,7 +111,7 @@
 
 .bloom-hover:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
 /* Custom scrollbar */
@@ -125,10 +124,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--bloom-purple));
+  background: hsl(var(--bloom-medium));
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--bloom-purple-dark));
+  background: hsl(var(--bloom-dark));
 }

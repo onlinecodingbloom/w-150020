@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="code-text text-xl font-bold text-purple-600">Coding Bloom</span>
+              <span className="code-text text-xl font-bold text-black">Coding Bloom</span>
             </Link>
           </div>
           
@@ -35,25 +35,25 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('courses')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600 flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
               >
                 Courses <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.courses && (
                 <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                   <div className="py-1">
-                    <Link to="/courses" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">All Courses</Link>
-                    <Link to="/courses/cpp" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">C++</Link>
-                    <Link to="/courses/java" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Java</Link>
-                    <Link to="/courses/dsa" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">DSA</Link>
-                    <Link to="/courses/full-stack" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Full-Stack Dev</Link>
+                    <Link to="/courses" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Courses</Link>
+                    <Link to="/courses/cpp" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">C++</Link>
+                    <Link to="/courses/java" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Java</Link>
+                    <Link to="/courses/dsa" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">DSA</Link>
+                    <Link to="/courses/full-stack" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Full-Stack Dev</Link>
                   </div>
                 </div>
               )}
             </div>
 
             {/* Dashboard */}
-            <Link to="/dashboard" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600">
+            <Link to="/dashboard" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
               Dashboard
             </Link>
 
@@ -61,16 +61,16 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('about')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600 flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
               >
                 About Us <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.about && (
                 <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                   <div className="py-1">
-                    <Link to="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Our Story</Link>
-                    <Link to="/about#team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Team & Mentors</Link>
-                    <Link to="/about#careers" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Careers @ Coding Bloom</Link>
+                    <Link to="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Our Story</Link>
+                    <Link to="/about#team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Team & Mentors</Link>
+                    <Link to="/about#careers" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Careers @ Coding Bloom</Link>
                   </div>
                 </div>
               )}
@@ -80,15 +80,15 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('success')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600 flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
               >
                 Success Stories <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.success && (
                 <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                   <div className="py-1">
-                    <Link to="/success-stories" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Video Testimonials</Link>
-                    <Link to="/success-stories#placement" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Placement Wall</Link>
+                    <Link to="/success-stories" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Video Testimonials</Link>
+                    <Link to="/success-stories#placement" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Placement Wall</Link>
                   </div>
                 </div>
               )}
@@ -98,28 +98,28 @@ const Navbar = () => {
             <div className="relative">
               <button 
                 onClick={() => toggleDropdown('blog')}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600 flex items-center"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black flex items-center"
               >
                 Blog & Resources <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.blog && (
                 <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                   <div className="py-1">
-                    <Link to="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Articles</Link>
-                    <Link to="/blog/ebooks" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Free E-books</Link>
-                    <Link to="/blog/webinars" className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-100">Webinars & Events</Link>
+                    <Link to="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Articles</Link>
+                    <Link to="/blog/ebooks" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Free E-books</Link>
+                    <Link to="/blog/webinars" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Webinars & Events</Link>
                   </div>
                 </div>
               )}
             </div>
 
             {/* FAQs */}
-            <Link to="/faqs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600">
+            <Link to="/faqs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
               FAQs
             </Link>
 
             {/* Contact */}
-            <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600">
+            <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-black">
               Contact
             </Link>
           </div>
@@ -128,7 +128,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <Link
               to="/login"
-              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-purple-600 hover:bg-purple-700"
+              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-black hover:bg-gray-800"
             >
               Login / Register
             </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
           <div className="flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-purple-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>

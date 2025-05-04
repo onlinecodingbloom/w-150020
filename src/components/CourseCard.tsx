@@ -28,7 +28,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
       <div className="aspect-w-16 aspect-h-9 relative">
         <img src={image} alt={title} className="w-full h-48 object-cover" />
         
-        <div className="absolute top-3 right-3 bg-purple-600 text-white text-xs font-semibold px-2 py-1 rounded">
+        <div className="absolute top-3 right-3 bg-black text-white text-xs font-semibold px-2 py-1 rounded">
           {level}
         </div>
       </div>
@@ -56,9 +56,9 @@ const CourseCard: React.FC<CourseCardProps> = ({
         </div>
         
         <div className="flex items-center justify-between">
-          <span className="font-bold text-xl text-purple-600">₹{price.toLocaleString()}</span>
+          <span className="font-bold text-xl text-black">₹{price.toLocaleString()}</span>
           
-          <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded font-medium">
+          <button className="px-4 py-2 bg-black hover:bg-gray-800 text-white rounded font-medium">
             View Details
           </button>
         </div>
