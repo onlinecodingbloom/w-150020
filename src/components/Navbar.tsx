@@ -28,7 +28,7 @@ const Navbar = () => {
               <div className="animate-pulse-slow hover:animate-bounce-subtle transition-all duration-300">
                 <img 
                   src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
-                  alt="Coding Bloom Logo" 
+                  alt="Bitwise School of Technology Logo" 
                   className="h-10 w-auto object-contain filter brightness-100 contrast-125"
                   style={{
                     filter: "drop-shadow(0px 0px 3px rgba(0, 82, 204, 0.5))",
@@ -37,7 +37,7 @@ const Navbar = () => {
                 />
               </div>
               <span className="text-xl font-bold text-[#0052CC] ml-2 hidden md:block animate-slide-in">
-                Coding Bloom
+                Bitwise School of Technology
               </span>
             </Link>
           </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
                   <div className="py-1">
                     <Link to="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Our Story</Link>
                     <Link to="/about#team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Team & Mentors</Link>
-                    <Link to="/about#careers" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Careers @ Coding Bloom</Link>
+                    <Link to="/about#careers" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Careers @ Bitwise</Link>
                   </div>
                 </div>
               )}

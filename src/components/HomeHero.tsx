@@ -28,7 +28,7 @@ const HomeHero = () => {
               </h1>
               <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Unlock your coding potential with our immersive live classes, 
-                hands-on projects, and industry-focused curriculum. Join Chandigarh's 
+                hands-on projects, and industry-focused curriculum. Join Delhi's 
                 premier coding institute today.
               </p>
               
@@ -92,7 +92,7 @@ const HomeHero = () => {
             <div className="flex items-center justify-center mb-6">
               <img 
                 src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
-                alt="Coding Bloom Logo" 
+                alt="Bitwise School of Technology Logo" 
                 className="h-24"
               />
             </div>

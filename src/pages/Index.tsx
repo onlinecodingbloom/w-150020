@@ -48,7 +48,7 @@ const Index = () => {
       role: 'Software Engineer',
       company: 'Microsoft',
       avatar: '/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png',
-      testimonial: 'Coding Bloom transformed my career completely. Their hands-on approach to teaching DSA helped me crack my dream job interview at Microsoft.',
+      testimonial: 'Bitwise School of Technology transformed my career completely. Their hands-on approach to teaching DSA helped me crack my dream job interview at Microsoft.',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' // replace with actual testimonial video
     },
     {
@@ -56,7 +56,7 @@ const Index = () => {
       role: 'Full Stack Developer',
       company: 'Infosys',
       avatar: '/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png',
-      testimonial: 'The mentors at Coding Bloom are incredible. They are always available to help and the mock interviews they conducted gave me the confidence to excel.',
+      testimonial: 'The mentors at Bitwise School of Technology are incredible. They are always available to help and the mock interviews they conducted gave me the confidence to excel.',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' // replace with actual testimonial video
     },
     {
@@ -139,10 +139,10 @@ const Index = () => {
             <div className="lg:grid lg:grid-cols-2 lg:gap-12">
               <div>
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                  Why Choose Coding Bloom?
+                  Why Choose Bitwise School of Technology?
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  At Coding Bloom, we focus on creating job-ready developers through hands-on 
+                  At Bitwise School of Technology, we focus on creating job-ready developers through hands-on 
                   learning, real-world projects, and personalized mentorship.
                 </p>
                 
@@ -169,7 +169,7 @@ const Index = () => {
                     to="/about" 
                     className="text-[#0052CC] font-medium hover:text-[#0747A6] flex items-center"
                   >
-                    Learn more about Coding Bloom
+                    Learn more about Bitwise School of Technology
                     <ArrowRight className="ml-1 h-5 w-5" />
                   </Link>
                 </div>
@@ -178,8 +178,8 @@ const Index = () => {
               <div className="mt-12 lg:mt-0">
                 <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"
-                    alt="Students collaborating in a classroom"
+                    src="/src/assets/students-coding.jpg"
+                    alt="Students learning programming"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -213,7 +213,7 @@ const Index = () => {
                 Success Stories
               </h2>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-                Hear from our students who transformed their careers with Coding Bloom
+                Hear from our students who transformed their careers with Bitwise School of Technology
               </p>
             </div>
             
@@ -242,7 +242,7 @@ const Index = () => {
               Ready to start your coding journey?
             </h2>
             <p className="mt-4 text-xl max-w-2xl mx-auto">
-              Join Chandigarh's premier coding institute and transform your career
+              Join Delhi's premier coding institute and transform your career
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <Link 

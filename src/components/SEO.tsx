@@ -12,32 +12,32 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = 'WRLDS',
-  description = 'WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring.',
+  title = 'Bitwise School of Technology',
+  description = 'Bitwise School of Technology: Premier coding institute in Delhi offering comprehensive programming courses, data structures, algorithms, and job placement assistance.',
   type = 'website',
-  name = 'WRLDS Technologies',
+  name = 'Bitwise School of Technology',
   imageUrl = '/lovable-uploads/812fe1e7-4326-47ef-868e-21cfd3b5fc46.png'
 }) => {
   const location = useLocation();
-  const currentUrl = `https://wrlds.com${location.pathname}`;
-  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://wrlds.com${imageUrl}`;
+  const currentUrl = `https://bitwiseschool.com${location.pathname}`;
+  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://bitwiseschool.com${imageUrl}`;
 
   // Create JSON-LD structured data
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'WRLDS Technologies',
-    url: 'https://wrlds.com',
-    logo: 'https://wrlds.com/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
-    description: 'Pioneering smart engineering solutions with textile sensors',
+    name: 'Bitwise School of Technology',
+    url: 'https://bitwiseschool.com',
+    logo: 'https://bitwiseschool.com/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png',
+    description: 'Premier coding institute offering comprehensive programming courses',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@wrlds.com'
+      email: 'info@bitwiseschool.com'
     },
     sameAs: [
-      'https://www.linkedin.com/company/wrlds-technologies',
-      'https://twitter.com/wrldstechnologies'
+      'https://www.linkedin.com/company/bitwise-school-of-technology',
+      'https://twitter.com/bitwiseschool'
     ]
   };
 

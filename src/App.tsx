@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import CoursesPage from './pages/CoursesPage';
 import CourseDetail from './pages/CourseDetail';
-import Dashboard from './pages/Dashboard';
+
 import AboutUs from './pages/AboutUs';
 import SuccessStories from './pages/SuccessStories';
 import BlogResources from './pages/BlogResources';
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/courses/:courseId" element={<CourseDetail />} />
-        <Route path="/dashboard/*" element={<Dashboard />} />
+        
         <Route path="/about" element={<AboutUs />} />
         <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/blog" element={<BlogResources />} />

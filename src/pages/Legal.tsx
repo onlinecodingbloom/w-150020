@@ -22,7 +22,7 @@ const Legal = () => {
             <p className="mt-4 text-xl max-w-2xl mx-auto">
               {isPrivacyPolicy 
                 ? 'How we collect, use, and protect your personal information' 
-                : 'Guidelines and rules for using Coding Bloom services'}
+                : 'Guidelines and rules for using Bitwise School of Technology services'}
             </p>
           </div>
         </section>
@@ -37,7 +37,7 @@ const Legal = () => {
                   
                   <h2>1. Introduction</h2>
                   <p>
-                    Coding Bloom ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our platform, or enroll in our courses.
+                    Bitwise School of Technology ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our platform, or enroll in our courses.
                   </p>
                   <p>
                     Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.
@@ -124,8 +124,8 @@ const Legal = () => {
                     If you have questions or concerns about this Privacy Policy, please contact us at:
                   </p>
                   <p>
-                    Email: privacy@codingbloom.in<br />
-                    Address: SCO 123, Sector 17-C, Chandigarh, 160017, India<br />
+                     Email: privacy@bitwiseschool.com<br />
+                    Address: 66 A Block, New Ashok Nagar, Delhi, India<br />
                     Phone: +91-987-654-3210
                   </p>
                 </>
@@ -151,7 +151,7 @@ const Legal = () => {
                   
                   <h3>2.3 Refund Policy</h3>
                   <p>
-                    We offer a 7-day money-back guarantee for most courses. To be eligible for a refund, you must request it within 7 days of enrollment and have completed less than 25% of the course content. Refund requests should be sent to support@codingbloom.in.
+                    We offer a 7-day money-back guarantee for most courses. To be eligible for a refund, you must request it within 7 days of enrollment and have completed less than 25% of the course content. Refund requests should be sent to support@bitwiseschool.com.
                   </p>
                   
                   <h2>3. Account Creation and Security</h2>
@@ -168,7 +168,7 @@ const Legal = () => {
                   <h2>4. Intellectual Property</h2>
                   <h3>4.1 Our Content</h3>
                   <p>
-                    All content provided through our platform, including course materials, videos, code examples, and assessments, is owned by Coding Bloom or its licensors and is protected by copyright and other intellectual property laws.
+                    All content provided through our platform, including course materials, videos, code examples, and assessments, is owned by Bitwise School of Technology or its licensors and is protected by copyright and other intellectual property laws.
                   </p>
                   
                   <h3>4.2 License to Use</h3>
@@ -213,7 +213,7 @@ const Legal = () => {
                   
                   <h2>8. Limitation of Liability</h2>
                   <p>
-                    In no event shall Coding Bloom be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our services.
+                    In no event shall Bitwise School of Technology be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our services.
                   </p>
                   
                   <h2>9. Governing Law</h2>
@@ -231,8 +231,8 @@ const Legal = () => {
                     If you have questions about these Terms, please contact us at:
                   </p>
                   <p>
-                    Email: legal@codingbloom.in<br />
-                    Address: SCO 123, Sector 17-C, Chandigarh, 160017, India<br />
+                     Email: legal@bitwiseschool.com<br />
+                    Address: 66 A Block, New Ashok Nagar, Delhi, India<br />
                     Phone: +91-987-654-3210
                   </p>
                 </>

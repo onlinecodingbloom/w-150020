@@ -13,7 +13,7 @@ const AboutUs = () => {
         <section className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-3xl font-extrabold sm:text-4xl">
-              About Coding Bloom
+              About Bitwise School of Technology
             </h1>
             <p className="mt-4 text-xl max-w-2xl mx-auto">
               We're on a mission to transform coding education in India
@@ -30,7 +30,7 @@ const AboutUs = () => {
                   Our Story
                 </h2>
                 <p className="text-lg text-gray-500 mb-4">
-                  Coding Bloom was founded in 2019 by a group of passionate tech professionals who saw 
+                  Bitwise School of Technology was founded in 2019 by a group of passionate tech professionals who saw 
                   a gap between traditional education and industry requirements in the Indian software development landscape.
                 </p>
                 <p className="text-lg text-gray-500 mb-4">
@@ -46,8 +46,8 @@ const AboutUs = () => {
               <div className="mt-10 lg:mt-0">
                 <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"
-                    alt="Coding Bloom Chandigarh Campus"
+                    src="/src/assets/students-coding.jpg"
+                    alt="Students learning at Bitwise School of Technology"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 Our Values
               </h2>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-                The principles that guide everything we do at Coding Bloom
+                The principles that guide everything we do at Bitwise School of Technology
               </p>
             </div>
             
@@ -238,7 +238,7 @@ const AboutUs = () => {
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-6">
-                  Careers @ Coding Bloom
+                  Careers @ Bitwise
                 </h2>
                 <p className="text-lg text-gray-500 mb-4">
                   We're on a mission to transform coding education in India, and we're always looking for 
@@ -299,8 +299,8 @@ const AboutUs = () => {
               
               <div className="mt-10 lg:mt-0">
                 <img
-                  src="/lovable-uploads/cbd073dd-ecad-4643-bf2b-efc3d5846994.png"
-                  alt="Team working together"
+                  src="/src/assets/programming-workspace.jpg"
+                  alt="Modern programming workspace"
                   className="rounded-lg shadow-lg object-cover"
                 />
               </div>
@@ -374,8 +374,8 @@ const AboutUs = () => {
               <div className="mt-8 text-center">
                 <p className="text-gray-500">
                   Don't see a suitable position? Send your resume to 
-                  <a href="mailto:careers@codingbloom.in" className="text-purple-600 hover:text-purple-700 ml-1">
-                    careers@codingbloom.in
+                  <a href="mailto:careers@bitwiseschool.com" className="text-purple-600 hover:text-purple-700 ml-1">
+                    careers@bitwiseschool.com
                   </a>
                 </p>
               </div>
@@ -390,7 +390,7 @@ const AboutUs = () => {
               Ready to bloom into a skilled developer?
             </h2>
             <p className="mt-4 text-xl max-w-2xl mx-auto">
-              Join Coding Bloom and transform your coding journey today
+              Join Bitwise School of Technology and transform your coding journey today
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <a 

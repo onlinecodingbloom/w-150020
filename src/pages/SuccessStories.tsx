@@ -14,7 +14,7 @@ const SuccessStories = () => {
       role: 'Software Engineer',
       company: 'Microsoft',
       avatar: '/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png',
-      testimonial: 'Coding Bloom transformed my career completely. Their hands-on approach to teaching DSA helped me crack my dream job interview at Microsoft.',
+      testimonial: 'Bitwise School of Technology transformed my career completely. Their hands-on approach to teaching DSA helped me crack my dream job interview at Microsoft.',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' // replace with actual testimonial video
     },
     {
@@ -22,7 +22,7 @@ const SuccessStories = () => {
       role: 'Full Stack Developer',
       company: 'Infosys',
       avatar: '/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png',
-      testimonial: 'The mentors at Coding Bloom are incredible. They are always available to help and the mock interviews they conducted gave me the confidence to excel.',
+      testimonial: 'The mentors at Bitwise School of Technology are incredible. They are always available to help and the mock interviews they conducted gave me the confidence to excel.',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' // replace with actual testimonial video
     },
     {
@@ -37,21 +37,21 @@ const SuccessStories = () => {
       role: 'Backend Developer',
       company: 'Amazon',
       avatar: '/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png',
-      testimonial: 'The practical approach and industry-focused curriculum at Coding Bloom made all the difference. I received three job offers within a month of completing the course!',
+      testimonial: 'The practical approach and industry-focused curriculum at Bitwise School of Technology made all the difference. I received three job offers within a month of completing the course!',
     },
     {
       name: 'Neha Patel',
       role: 'Data Analyst',
       company: 'IBM',
       avatar: '/lovable-uploads/761e2d9d-3a1c-458b-9848-dd1d7b42d1b9.png',
-      testimonial: 'The DSA course at Coding Bloom gave me a strong foundation that helps me daily in my work as a data analyst. The instructors were knowledgeable and supportive.',
+      testimonial: 'The DSA course at Bitwise School of Technology gave me a strong foundation that helps me daily in my work as a data analyst. The instructors were knowledgeable and supportive.',
     },
     {
       name: 'Arjun Reddy',
       role: 'Mobile App Developer',
       company: 'Wipro',
       avatar: '/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png',
-      testimonial: 'Switching careers was challenging, but Coding Bloom made it seamless. Their placement assistance team worked tirelessly to help me land my first tech role.',
+      testimonial: 'Switching careers was challenging, but Bitwise School of Technology made it seamless. Their placement assistance team worked tirelessly to help me land my first tech role.',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' // replace with actual testimonial video
     }
   ];
@@ -135,7 +135,7 @@ const SuccessStories = () => {
               Success Stories
             </h1>
             <p className="mt-4 text-xl max-w-2xl mx-auto">
-              See how Coding Bloom has transformed careers and opened doors for our students
+              See how Bitwise School of Technology has transformed careers and opened doors for our students
             </p>
           </div>
         </section>
@@ -166,7 +166,7 @@ const SuccessStories = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="mb-12">
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center">
-                  Hear directly from our alumni about their experience at Coding Bloom and how our 
+                  Hear directly from our alumni about their experience at Bitwise School of Technology and how our 
                   programs helped them achieve their career goals.
                 </p>
               </div>
@@ -195,7 +195,7 @@ const SuccessStories = () => {
                   <div className="p-6">
                     <h4 className="font-bold text-xl mb-2">From Zero to Google: Rohan's Coding Journey</h4>
                     <p className="text-gray-600">
-                      Rohan joined Coding Bloom with no prior programming experience and landed a job at Google within 8 months.
+                      Rohan joined Bitwise School of Technology with no prior programming experience and landed a job at Google within 8 months.
                       Watch his inspiring journey and learn how he overcame challenges along the way.
                     </p>
                   </div>
@@ -301,7 +301,7 @@ const SuccessStories = () => {
               Begin Your Success Story
             </h2>
             <p className="mt-4 text-xl max-w-2xl mx-auto">
-              Join Coding Bloom today and write the next success story we feature
+              Join Bitwise School of Technology today and write the next success story we feature
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <a 

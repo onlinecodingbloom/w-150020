@@ -10,11 +10,11 @@ const Footer = () => {
           {/* Logo and About */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-4">
-              <span className="code-text text-xl font-bold text-white">Coding Bloom</span>
+              <span className="code-text text-xl font-bold text-white">Bitwise School of Technology</span>
             </Link>
             <p className="text-gray-300 mb-4 max-w-md">
-              Transform your coding journey with Chandigarh's premier software training institute. 
-              Hands-on learning, expert mentorship, and job-ready skills to bloom into a successful developer.
+              Transform your coding journey with Delhi's premier technology training institute. 
+              Hands-on learning, expert mentorship, and job-ready skills to excel in the tech industry.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
@@ -88,13 +88,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-300">
-              <p className="mb-2">SCO 123, Sector 17-C</p>
-              <p className="mb-2">Chandigarh, 160017</p>
-              <p className="mb-2">India</p>
+              <p className="mb-2">66 A Block</p>
+              <p className="mb-2">New Ashok Nagar</p>
+              <p className="mb-2">Delhi, India</p>
             </address>
             <p className="flex items-center text-gray-300 mb-2">
               <Mail className="h-4 w-4 mr-2" />
-              <a href="mailto:info@codingbloom.in" className="hover:text-white">info@codingbloom.in</a>
+              <a href="mailto:info@bitwiseschool.com" className="hover:text-white">info@bitwiseschool.com</a>
             </p>
             <p className="text-gray-300">
               <a href="tel:+919876543210" className="hover:text-white">+91 987 654 3210</a>
@@ -105,7 +105,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Coding Bloom. All rights reserved.
+              &copy; {new Date().getFullYear()} Bitwise School of Technology. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/legal/privacy" className="text-gray-400 text-sm hover:text-white">

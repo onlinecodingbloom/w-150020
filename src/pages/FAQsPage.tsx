@@ -24,8 +24,8 @@ const FAQsPage = () => {
       questions: [
         {
           id: 1,
-          question: 'What is Coding Bloom?',
-          answer: 'Coding Bloom is a premier software training institute based in Chandigarh, India. We offer comprehensive coding courses, focusing on programming languages, data structures & algorithms, web development, and more. Our mission is to transform students into job-ready developers through hands-on learning and industry-aligned curriculum.'
+          question: 'What is Bitwise School of Technology?',
+          answer: 'Bitwise School of Technology is a premier software training institute based in Delhi, India. We offer comprehensive coding courses, focusing on programming languages, data structures & algorithms, web development, and more. Our mission is to transform students into job-ready developers through hands-on learning and industry-aligned curriculum.'
         },
         {
           id: 2,
@@ -34,7 +34,7 @@ const FAQsPage = () => {
         },
         {
           id: 3,
-          question: 'How are Coding Bloom courses different from free online tutorials?',
+          question: 'How are Bitwise School of Technology courses different from free online tutorials?',
           answer: 'Unlike free tutorials, we offer a structured learning path with live interactive sessions, personalized mentorship, doubt resolution, hands-on projects, and placement assistance. Our curriculum is designed by industry experts to focus on practical skills that employers value, and we provide a supportive community of fellow learners.'
         }
       ]
@@ -92,7 +92,7 @@ const FAQsPage = () => {
         },
         {
           id: 11,
-          question: 'What companies hire from Coding Bloom?',
+          question: 'What companies hire from Bitwise School of Technology?',
           answer: 'Our students have been placed in companies like Microsoft, Google, Amazon, Infosys, TCS, Wipro, IBM, Accenture, and many startups and mid-sized tech companies. The range of roles includes software developers, web developers, data analysts, and more.'
         },
         {
@@ -216,7 +216,7 @@ const FAQsPage = () => {
                   Contact Us
                 </a>
                 <a 
-                  href="mailto:info@codingbloom.in" 
+                  href="mailto:info@bitwiseschool.com" 
                   className="inline-flex items-center justify-center px-5 py-3 border border-purple-600 text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50"
                 >
                   Email Support
