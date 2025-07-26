@@ -25,18 +25,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="animate-pulse-slow hover:animate-bounce-subtle transition-all duration-300">
-                <img 
-                  src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
-                  alt="Bitwise School of Technology Logo" 
-                  className="h-10 w-auto object-contain filter brightness-100 contrast-125"
-                  style={{
-                    filter: "drop-shadow(0px 0px 3px rgba(0, 82, 204, 0.5))",
-                    background: "transparent"
-                  }}
-                />
-              </div>
-              <span className="text-xl font-bold text-[#0052CC] ml-2 hidden md:block animate-slide-in">
+              <span className="text-xl font-bold text-[#0052CC] animate-slide-in">
                 Bitwise School of Technology
               </span>
             </Link>
@@ -53,7 +42,7 @@ const Navbar = () => {
                 Courses <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.courses && (
-                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                   <div className="py-1">
                     <Link to="/courses" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Courses</Link>
                     <Link to="/courses/cpp" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">C++</Link>
@@ -65,10 +54,6 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Dashboard */}
-            <Link to="/dashboard" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#0052CC]">
-              Dashboard
-            </Link>
 
             {/* About Us Dropdown */}
             <div className="relative">
@@ -79,7 +64,7 @@ const Navbar = () => {
                 About Us <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.about && (
-                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                   <div className="py-1">
                     <Link to="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Our Story</Link>
                     <Link to="/about#team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Team & Mentors</Link>
@@ -98,7 +83,7 @@ const Navbar = () => {
                 Success Stories <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.success && (
-                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                   <div className="py-1">
                     <Link to="/success-stories" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Video Testimonials</Link>
                     <Link to="/success-stories#placement" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Placement Wall</Link>
@@ -116,7 +101,7 @@ const Navbar = () => {
                 Blog & Resources <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {dropdownOpen.blog && (
-                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                   <div className="py-1">
                     <Link to="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Articles</Link>
                     <Link to="/blog/ebooks" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Free E-books</Link>
@@ -174,12 +159,6 @@ const Navbar = () => {
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
             >
               Courses
-            </Link>
-            <Link
-              to="/dashboard"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0052CC] hover:bg-gray-50"
-            >
-              Dashboard
             </Link>
             <Link
               to="/about"

@@ -23,9 +23,12 @@ const HomeHero = () => {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Bloom into a</span>{' '}
-                <span className="block text-[#0052CC] xl:inline">skilled developer</span>
+                <span className="block xl:inline">Bitwise School of</span>{' '}
+                <span className="block text-[#0052CC] xl:inline">Technology</span>
               </h1>
+              <p className="mt-2 text-lg font-medium text-[#0052CC]">
+                Let's build bit by bit
+              </p>
               <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Unlock your coding potential with our immersive live classes, 
                 hands-on projects, and industry-focused curriculum. Join Delhi's 
@@ -90,11 +93,9 @@ const HomeHero = () => {
         <div className="h-56 w-full sm:h-72 md:h-96 lg:w-full lg:h-full bg-gradient-to-r from-white to-[#e6effc] flex items-center justify-center p-8">
           <div className="bg-white rounded-lg shadow-lg p-6 max-w-md">
             <div className="flex items-center justify-center mb-6">
-              <img 
-                src="/lovable-uploads/add7e0a1-0cf3-4da0-abed-55deb8d78c9f.png" 
-                alt="Bitwise School of Technology Logo" 
-                className="h-24"
-              />
+              <h2 className="text-2xl font-bold text-[#0052CC]">
+                Bitwise School of Technology
+              </h2>
             </div>
             
             <div className="space-y-4">
